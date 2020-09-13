@@ -4,6 +4,12 @@ CONFIG= ./config
 
 include $(CONFIG)
 
+# Default prefix
+export PREFIX = /usr/local/luajit
+
+# Lua version
+export LUA_SYS_VER ?= 5.1
+
 COMPAT52_OBJS= src/compat-5.2.o
 
 MD5_OBJS= src/md5.o src/md5lib.o
