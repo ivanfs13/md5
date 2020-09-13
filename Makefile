@@ -8,7 +8,7 @@ include $(CONFIG)
 export PREFIX = /usr/local
 
 # Lua version
-export LUA_SYS_VER ?= 5.1
+export LUA_SYS_VER = 5.1
 
 COMPAT52_OBJS= src/compat-5.2.o
 
