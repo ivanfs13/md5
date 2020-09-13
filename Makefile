@@ -5,7 +5,7 @@ CONFIG= ./config
 include $(CONFIG)
 
 # Default prefix
-export PREFIX = /usr/local/luajit
+export PREFIX = /usr/local
 
 # Lua version
 export LUA_SYS_VER ?= 5.1
